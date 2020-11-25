@@ -75,7 +75,6 @@ Este elemento y su script quedan de la siguiente manera
       public void delete() {
         Destroy(gameObject);
         cubes++;
-
       }
     }
 
