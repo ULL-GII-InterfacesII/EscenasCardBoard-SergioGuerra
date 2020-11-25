@@ -1,5 +1,5 @@
 # Escenas CardBoard
-## SergioGuerra
+## Sergio Guerra Arencibia
 ---  
 Para el desarrollo de esta práctica se hará uso del siguiente [paquete](https://github.com/googlevr/gvr-unity-sdk/releases).  
 Para realizar esta práctica, lo primero que hay que hacer es configurar nuestro proyecto para que, a la hora de la compilación se nos cree la aplicación correctamente.  
