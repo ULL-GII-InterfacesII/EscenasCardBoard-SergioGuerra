@@ -43,6 +43,7 @@ Esto se logra mediante la adición de eventos a la esfera. Para lograr lo mencio
   
 Existen muchos más eventos disponibles, aunque para esta práctica nos limitaremos a usar estos tres.  
 Cuando tengamos creados los eventos hemos de añadirles la acción que queremos que se realice. Como solo deseamos un cambio de color, el script será el siguiente  
+
 ```c#  
     public class changeColor : MonoBehaviour  {
       public void Red() {
@@ -58,9 +59,11 @@ Cuando tengamos creados los eventos hemos de añadirles la acción que queremos 
 ```  
 
 Y lo añadimos con la interfaz gráfica de unity de una manera muy sencilla. La asiganción de los eventos a los métodos nos deja esta situación.  
+
 ![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/Events.png)  
 
 probando su funcionamiento, vemos que procede de manera correcta.  
+
 ![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/changeColor.gif)  
   
    
