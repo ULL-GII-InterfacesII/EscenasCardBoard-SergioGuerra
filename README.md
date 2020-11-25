@@ -23,7 +23,7 @@ En el siguiente gif podemos ver estos movimientos en el entorno básico que hemo
 
 
 Ya tenemos el emulador, pero falta algo vital para nuestra aplicación, la retícula que nos permitirá interactuar con el entorno.  
-Para ello creamos un objeto vacío (camera rig), del cual desciende nuestra cámara (mainCamera). Y a su vez, descendiendo de la cámara
+Para ello creamos un objeto vacío (camera rig), del cual desciende nuestra cámara (mainCamera) y a su vez, descendiendo de la cámara
 colocamos otro prefab llamado "GvrReticlePointer".  
 Esta jerarquía de tres niveles consigue que tengamos la retícula asociada a la cámara, moviéndose esta junto a nuestro movimiento.  
 
