@@ -8,18 +8,18 @@ Esto se hace de manera análoga a como se hizo en la práctica pasada, donde pro
 Una vez y tengamos esta configuración, vamos a comenzar añadiendo un plano y una esfera. Estos elementos básicos nos serán suficiente para comenzar a trabajar. 
 Posteriormente, cuando tengamos todo preparado pasaremos a terminar el entorno y añadir nuevos elementos.   
 
-![alt_text]()
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/Esfera.png)
   
 Con esto ya podemos comenzar con la realidad virtual como tal. 
 En primer lugar añadimos un prefab llamado*GvrEditorEmulator*. Este elemento está incluido en el módulo que hemos importado y nos permitirá emular el funcionamiento de nuestra aplicación de realidad virutal
 en nuestro ordenador.  
 
-![alt_text]()
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/gvrEditorEmulator.png)
 
 Una vez lo añadimos y ejecutemos nuestra aplicación, podemos ver que podemos girar la cámara hacia los lados pulsando "alt + flecha" como si estuvieramos girando la cabeza. También podemos inclinarla usando "control + flechas".  
 En el siguiente gif podemos ver estos movimientos en el entorno básico que hemos creado
   
-![alt_text]()
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/Emulator.gif)
 
 
 Ya tenemos el emulador, pero falta algo vital para nuestra aplicación, la retícula que nos permitirá interactuar con el entorno.  
@@ -27,10 +27,10 @@ Para ello creamos un objeto vacío (camera rig), del cual desciende nuestra cám
 colocamos otro prefab llamado "GvrReticlePointer".  
 Esta jerarquía de tres niveles consigue que tengamos la retícula asociada a la cámara, moviéndose esta junto a nuestro movimiento.  
 
-![alt_text]()  
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/ReticleHierarchy.png)  
 
 Para que la retícula sea funcional (y no algo meramente visual) debemos añadirle el componente "Gvr Pointer physics Raycaster".  
-![alt_text]()  
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/ReticleEmulator.gif)  
 
 ---  
 Ya estamos listos para interactuar y afectar al mundo de nuestro alrededor.  
@@ -47,10 +47,10 @@ Cuando tengamos creados los eventos hemos de añadirles la acción que queremos 
 ```  
 
 Y lo añadimos con la interfaz gráfica de unity de una manera muy sencilla. La asiganción de los eventos a los métodos nos deja esta situación.  
-![alt_text]()  
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/Events.png)  
 
 probando su funcionamiento, vemos que procede de manera correcta.  
-![alt_text]()  
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/changeColor.gif)  
   
    
 Para realizar la recolección de cubos es de manera muy similar.  
@@ -60,8 +60,8 @@ Este elemento y su script quedan de la siguiente manera
 ```c#
 ```  
 
-![alt_text]()  
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/pickCube.gif)  
   
 Solo resta añadir diferentes esferas y cubos, distribuyendolos de una manera (en mi caso) no uniforme por el entorno.  
 
-![alt_text]()
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/finalResult.gif)
