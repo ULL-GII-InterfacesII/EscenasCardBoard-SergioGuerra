@@ -2,7 +2,7 @@
 ## SergioGuerra
 ---  
 Para el desarrollo de esta práctica se hará uso del siguiente [paquete](https://github.com/googlevr/gvr-unity-sdk/releases).  
-Para realizar esta práctica, lo primero que hay que hacer -evidentemente- es configurar nuestro proyecto para que, a la hora de la compilación se nos cree la aplicación correctamente.  
+Para realizar esta práctica, lo primero que hay que hacer es configurar nuestro proyecto para que, a la hora de la compilación se nos cree la aplicación correctamente.  
 Esto se hace de manera análoga a como se hizo en la práctica pasada, donde probabamos a compilar y generar la aplicación apk de una escena ya construida.
   
 Una vez y tengamos esta configuración, vamos a comenzar añadiendo un plano y una esfera. Estos elementos básicos nos serán suficiente para comenzar a trabajar. 
