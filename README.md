@@ -43,7 +43,18 @@ Esto se logra mediante la adición de eventos a la esfera. Para lograr lo mencio
   
 Existen muchos más eventos disponibles, aunque para esta práctica nos limitaremos a usar estos tres.  
 Cuando tengamos creados los eventos hemos de añadirles la acción que queremos que se realice. Como solo deseamos un cambio de color, el script será el siguiente  
-```c#
+```c#  
+    public class changeColor : MonoBehaviour  {
+      public void Red() {
+        GetComponent<Renderer>().material.color = Color.red;
+      }
+      public void Blue() {
+        GetComponent<Renderer>().material.color = Color.blue;
+      }
+      public void Green() {
+        GetComponent<Renderer>().material.color = Color.green;
+      }
+    }
 ```  
 
 Y lo añadimos con la interfaz gráfica de unity de una manera muy sencilla. La asiganción de los eventos a los métodos nos deja esta situación.  
@@ -58,6 +69,16 @@ Creamos un cubo, añadimos un evento *Pointer Click* y en su script asignado -a 
 Este elemento y su script quedan de la siguiente manera  
 
 ```c#
+    public class deleteOnClick : MonoBehaviour {
+      public int cubes = 0;
+
+      public void delete() {
+        Destroy(gameObject);
+        cubes++;
+
+      }
+    }
+
 ```  
 
 ![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/pickCube.gif)  
