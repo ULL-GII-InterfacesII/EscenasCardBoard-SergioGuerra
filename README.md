@@ -30,6 +30,11 @@ Esta jerarquía de tres niveles consigue que tengamos la retícula asociada a la
 ![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/ReticleHierarchy.png)  
 
 Para que la retícula sea funcional (y no algo meramente visual) debemos añadirle el componente "Gvr Pointer physics Raycaster".  
+
+![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/gvrPointerPhysicsRaycaster.png)  
+ 
+Vemos el resultado de añadir la retícula  
+
 ![alt_text](https://github.com/ULL-GII-InterfacesII/EscenasCardBoard-SergioGuerra/blob/main/images%26gifs/ReticleEmulator.gif)  
 
 ---  
